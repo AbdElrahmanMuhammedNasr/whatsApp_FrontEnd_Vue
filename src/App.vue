@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app" class="row  main">
+            <section class="col-sm-9">
+                <app-LeftBar></app-LeftBar>
+            </section>
+            <section class="col-sm-3">
+                <app-RightBar></app-RightBar>
+            </section>
+    </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import rightBar from './components/Right/RightBar';
+    import leftBar from './components/Left/LeftBar';
+    export default {
+        components:{
+            'app-RightBar':rightBar,
+            'app-LeftBar':leftBar,
+        }
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+    .main{
+        width: 80vw;
+        margin: 5vh auto ;
+        background-color: whitesmoke;
+        /*background-color: blue;*/
+        height: 90vh;
+
+        overflow: hidden;
+    }
+
 </style>
