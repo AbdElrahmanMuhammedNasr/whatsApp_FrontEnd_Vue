@@ -2,7 +2,7 @@
     <div class="Main" style="overflow: hidden">
         <div class="row"  style=" ; overflow: hidden;padding: 10px 20px">
 
-            <section class="col-sm-11 row" style="">
+            <section class="col-sm-11 row" >
                 <section class="col-sm-1">
                     <span class="fa fa-ellipsis-v"></span>
                 </section>

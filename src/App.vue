@@ -1,9 +1,9 @@
 <template>
     <div id="app" class="row  main">
-            <section class="col-sm-9">
+            <section class="col-sm-9 ">
                 <app-LeftBar></app-LeftBar>
             </section>
-            <section class="col-sm-3">
+            <section class="col-sm-3 .d-none .d-sm-block">
                 <app-RightBar></app-RightBar>
             </section>
     </div>

@@ -12,8 +12,9 @@
             <span class="fa fa-search"></span>
         </section>
         
-        <section class="col-sm-1 offset-8" >
-            <img src="../../../assets/hassan.jpg">
+        <section class="col-sm-2 offset-7 row" >
+            <p class="col-sm-6 text-muted">Hassan</p>
+            <img class="col-sm-5" src="../../../assets/hassan.jpg">
         </section>
 
     </div>
@@ -26,12 +27,15 @@
 
 <style scoped>
     .Main{
-        padding: 10px;
+        padding: 10px 0px;
         background-color: #ededed;
     }
     img{
         width: 30px;
         height:30px;
         border-radius: 50%;
+    }
+    span{
+        color: #939393;
     }
 </style>

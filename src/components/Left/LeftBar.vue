@@ -1,6 +1,6 @@
 <template>
     <div>
-        <app-Bar></app-Bar>
+        <app-Bar class=".d-none .d-sm-block"></app-Bar>
         <app-Chat></app-Chat>
         <app-Send></app-Send>
     </div>
