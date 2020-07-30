@@ -10,23 +10,22 @@
         data:function () {
             return {
                 Friends : [
-                    {id:1,image:'../../../../assets/badawy.jpg', name:'Badawy', last:'ok',time:'12 PM'},
-                    {id:2,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    {id:3,image:'../../../../assets/badawy.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    {id:4,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    {id:5,image:'../../../../assets/badawy.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    {id:6,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    {id:7,image:'../../../../assets/badawy.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    {id:8,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-
-                    // {id:9,image:'../../../../assets/badawy.jpg', name:'Badawy', last:'ok',time:'12 PM'},
-                    // {id:21,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    // {id:31,image:'../../../../assets/badawy.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    // {id:41,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    // {id:51,image:'../../../../assets/badawy.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    // {id:61,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    // {id:71,image:'../../../../assets/badawy.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
-                    // {id:81,image:'../../../../assets/hassan.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:1,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'Badawy', last:'ok',time:'12 PM'},
+                    {id:2,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:3,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:4,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:5,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:6,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:7,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:8,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:9,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'Badawy', last:'ok',time:'12 PM'},
+                    {id:21,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:31,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:41,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:51,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:61,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:71,image:'https://www.nretnil.com/avatar/LawrenceEzekielAmos.png', name:'hassan', last:'bye',time:'11:30 AM'},
+                    {id:81,image:'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg', name:'hassan', last:'bye',time:'11:30 AM'},
 
                 ]
             }
@@ -39,6 +38,7 @@
 
 <style scoped>
     .Friends{
+        height: 100%;
         overflow: hidden;
         overflow-y: scroll;
     }

@@ -19,7 +19,7 @@
 
 
             <section class="col-sm-1" >
-                <img src="../../../assets/abdo.jpg">
+                <img src="https://i.imgur.com/3McFm3K_d.webp?maxwidth=640&shape=thumb&fidelity=medium">
             </section>
         </div>
 

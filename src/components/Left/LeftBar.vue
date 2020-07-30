@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="name.length > 0">
         <app-Bar class=".d-none .d-sm-block"></app-Bar>
         <app-Chat></app-Chat>
         <app-Send></app-Send>
@@ -10,6 +10,12 @@
     import Chat from './Chat/Chat';
     import Send from './SendBar/SendBar';
     export default {
+      computed:{
+        name(){
+          return this.$store.state.chatWith.name
+        },
+
+      },
         components:{
             'app-Bar':Bar,
             'app-Chat':Chat,

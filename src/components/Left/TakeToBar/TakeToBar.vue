@@ -13,8 +13,8 @@
         </section>
         
         <section class="col-sm-2 offset-7 row" >
-            <p class="col-sm-6 text-muted">Hassan</p>
-            <img class="col-sm-5" src="../../../assets/hassan.jpg">
+            <p class="col-sm-6 text-muted">{{name}}</p>
+            <img class="col-sm-5" :src="image">
         </section>
 
     </div>
@@ -22,12 +22,21 @@
 
 <script>
     export default {
+      computed:{
+        name(){
+              return this.$store.state.chatWith.name
+        },
+        image(){
+          return this.$store.state.chatWith.image
+        }
+
+      }
     }
 </script>
 
 <style scoped>
     .Main{
-        padding: 10px 0px;
+        padding: 10px 0px 0px 0px;
         background-color: #ededed;
     }
     img{

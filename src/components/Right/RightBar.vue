@@ -22,7 +22,6 @@
 
 <style scoped>
     .Right{
-        /*background-color: red;*/
 
     }
 

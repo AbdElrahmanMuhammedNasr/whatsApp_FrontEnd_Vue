@@ -1,5 +1,6 @@
-<template>
-    <div id="app" class="row  main">
+<template >
+    <div id="app" class="row  main" >
+
             <section class="col-sm-9 ">
                 <app-LeftBar></app-LeftBar>
             </section>
@@ -29,7 +30,6 @@
         background-color: whitesmoke;
         /*background-color: blue;*/
         height: 90vh;
-
         overflow: hidden;
     }
 
